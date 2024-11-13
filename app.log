@@ -1,0 +1,41 @@
+2024-11-13 19:36:05,617 - INFO - Starting the electricity price monitoring service. Maximum price: 0.15 SEK/kWh
+2024-11-13 19:38:01,802 - INFO - Starting the electricity price monitoring service. Maximum price: 0.15 SEK/kWh
+2024-11-13 19:38:01,802 - INFO - Fetching electricity price for 2024-11-13 19:38:01.802036 in area SE3.
+2024-11-13 19:38:01,802 - INFO - Fetching electricity price from https://www.elprisetjustnu.se/api/v1/prices/2024/11-13_SE3.json.
+2024-11-13 19:38:01,873 - INFO - Got electricity price for 2024-11-13 19:38:01.802036 and for current hour: 19:00:00, price is 0.74445
+2024-11-13 19:38:01,874 - INFO - Turning on the relay at IP address 192.168.1.133.
+2024-11-13 19:38:02,926 - ERROR - An unhandled error occurred: HTTPConnectionPool(host='192.168.1.133', port=80): Max retries exceeded with url: /relay/0?turn=on (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f297f316cd0>: Failed to establish a new connection: [Errno 113] No route to host'))
+2024-11-13 19:38:02,926 - INFO - Fetching electricity price for 2024-11-13 19:38:02.926335 in area SE3.
+2024-11-13 19:38:02,926 - INFO - Fetching electricity price from https://www.elprisetjustnu.se/api/v1/prices/2024/11-13_SE3.json.
+2024-11-13 19:38:02,998 - INFO - Got electricity price for 2024-11-13 19:38:02.926335 and for current hour: 19:00:00, price is 0.74445
+2024-11-13 19:38:02,999 - INFO - Turning on the relay at IP address 192.168.1.133.
+2024-11-13 19:39:58,620 - INFO - Starting the electricity price monitoring service. Maximum price: 0.15 SEK/kWh
+2024-11-13 19:39:58,620 - INFO - Fetching electricity price for 2024-11-13 19:39:58.620057 in area SE3.
+2024-11-13 19:39:58,620 - INFO - Fetching electricity price from https://www.elprisetjustnu.se/api/v1/prices/2024/11-13_SE3.json.
+2024-11-13 19:39:58,890 - INFO - Got electricity price for 2024-11-13 19:39:58.620057 and for current hour: 19:00:00, price is 0.74445
+2024-11-13 19:39:58,891 - INFO - Turning on the relay at IP address 192.168.1.133.
+2024-11-13 19:40:57,731 - INFO - Starting the electricity price monitoring service. Maximum price: 0.15 SEK/kWh
+2024-11-13 19:40:57,731 - INFO - Fetching electricity price for 2024-11-13 19:40:57.731472 in area SE3.
+2024-11-13 19:40:57,731 - INFO - Fetching electricity price from https://www.elprisetjustnu.se/api/v1/prices/2024/11-13_SE3.json.
+2024-11-13 19:40:57,804 - INFO - Got electricity price for 2024-11-13 19:40:57.731472 and for current hour: 19:00:00, price is 0.74445
+2024-11-13 19:40:57,805 - INFO - Turning off the relay at IP address 192.168.1.133.
+2024-11-13 19:42:00,488 - INFO - Starting the electricity price monitoring service. Maximum price: 0.15 SEK/kWh
+2024-11-13 19:42:00,488 - INFO - Fetching electricity price for 2024-11-13 19:42:00.488050 in area SE3.
+2024-11-13 19:42:00,488 - INFO - Fetching electricity price from https://www.elprisetjustnu.se/api/v1/prices/2024/11-13_SE3.json.
+2024-11-13 19:42:00,558 - INFO - Got electricity price for 2024-11-13 19:42:00.488050 and for current hour: 19:00:00, price is 0.74445
+2024-11-13 19:42:00,559 - INFO - Turning off the relay at IP address 192.168.1.133.
+2024-11-13 19:42:10,571 - ERROR - An unhandled error occurred: HTTPConnectionPool(host='192.168.1.133', port=80): Max retries exceeded with url: /relay/0?turn=off (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fcf9d4f6cd0>, 'Connection to 192.168.1.133 timed out. (connect timeout=10)'))
+2024-11-13 19:42:10,572 - INFO - Fetching electricity price for 2024-11-13 19:42:10.572193 in area SE3.
+2024-11-13 19:42:10,572 - INFO - Fetching electricity price from https://www.elprisetjustnu.se/api/v1/prices/2024/11-13_SE3.json.
+2024-11-13 19:42:10,643 - INFO - Got electricity price for 2024-11-13 19:42:10.572193 and for current hour: 19:00:00, price is 0.74445
+2024-11-13 19:42:10,643 - INFO - Turning off the relay at IP address 192.168.1.133.
+2024-11-13 19:42:20,656 - ERROR - An unhandled error occurred: HTTPConnectionPool(host='192.168.1.133', port=80): Max retries exceeded with url: /relay/0?turn=off (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fcf9d4f5010>, 'Connection to 192.168.1.133 timed out. (connect timeout=10)'))
+2024-11-13 19:42:20,657 - INFO - Fetching electricity price for 2024-11-13 19:42:20.657102 in area SE3.
+2024-11-13 19:42:20,657 - INFO - Fetching electricity price from https://www.elprisetjustnu.se/api/v1/prices/2024/11-13_SE3.json.
+2024-11-13 19:42:20,730 - INFO - Got electricity price for 2024-11-13 19:42:20.657102 and for current hour: 19:00:00, price is 0.74445
+2024-11-13 19:42:20,731 - INFO - Turning off the relay at IP address 192.168.1.133.
+2024-11-13 19:42:30,744 - ERROR - An unhandled error occurred: HTTPConnectionPool(host='192.168.1.133', port=80): Max retries exceeded with url: /relay/0?turn=off (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7fcf9d500c10>, 'Connection to 192.168.1.133 timed out. (connect timeout=10)'))
+2024-11-13 19:42:30,744 - INFO - Fetching electricity price for 2024-11-13 19:42:30.744460 in area SE3.
+2024-11-13 19:42:30,744 - INFO - Fetching electricity price from https://www.elprisetjustnu.se/api/v1/prices/2024/11-13_SE3.json.
+2024-11-13 19:42:30,819 - INFO - Got electricity price for 2024-11-13 19:42:30.744460 and for current hour: 19:00:00, price is 0.74445
+2024-11-13 19:42:30,819 - INFO - Turning off the relay at IP address 192.168.1.133.
